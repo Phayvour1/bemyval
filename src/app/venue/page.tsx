@@ -12,12 +12,12 @@ export default function VenuePage() {
   const [selectedVenues, setSelectedVenues] = useState(selections.venue || []);
 
   const venues = [
-    { name: "Royal Ontario Museum", image: "/m.jpeg" },
-    { name: "Aquarium", image: "/aquarium.jpeg" },
-    { name: "Park", image: "/park.jpeg" },
-    // { name: "Restaurant", image: "/restaurant.jpeg" },
-    { name: "Arcade", image: "/arcade.jpeg" },
-    { name: "Cinema", image: "/cinema.jpeg" },
+    { name: "Visit the Museum", image: "/m.jpeg" },
+    { name: "See an Aquarium", image: "/aquarium.jpeg" },
+    { name: "Snow Tubing ", image: "/snow_tubing.jpeg" },
+    { name: "Visit  Bubble Planet", image: "/bubble_planet.jpeg" },
+    { name: "Karting", image: "/go_kart.jpeg" },
+    { name: "See a Movie", image: "/cinema.jpeg" },
   ];
 
   const toggleVenueSelection = (venue: string) => {

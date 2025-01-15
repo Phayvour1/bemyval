@@ -32,6 +32,10 @@ export default function DessertPage() {
       name: "Cake",
       image: "/cake.jpeg",
     },
+    {
+      name: "Croffle",
+      image: "/croffle.jpeg",
+    },
   ];
 
   const handleDessertSelection = (dessert: string) => {

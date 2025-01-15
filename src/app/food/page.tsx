@@ -13,7 +13,7 @@ export default function FoodPage() {
 
   const foods = [
     { name: "burgers and fried chicken", image: "/burgers.jpeg" },
-    { name: "hotdog", image: "/hotdog.jpeg" },
+    { name: "seafood boil", image: "/seafood.jpeg" },
     { name: "korean food", image: "/koreanfood.jpeg" },
     { name: "pasta", image: "/pasta.jpeg" },
     { name: "pizza", image: "/pizza.jpeg" },
