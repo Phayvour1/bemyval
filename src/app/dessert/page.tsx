@@ -33,7 +33,7 @@ export default function DessertPage() {
       image: "/cake.jpeg",
     },
     {
-      name: "Croffle",
+      name: "Croffles",
       image: "/croffle.jpeg",
     },
   ];
