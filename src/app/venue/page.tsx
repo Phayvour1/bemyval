@@ -38,7 +38,7 @@ export default function VenuePage() {
       style={{ backgroundImage: "url('/bg.jpg')" }}
       >
       <h1 className="text-4xl  font-telma font-bold m-8 p-5 text-center">What are we doing after?</h1>
-      <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {venues.map((venue) => (
           <div
             key={venue.name}

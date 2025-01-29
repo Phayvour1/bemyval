@@ -12,7 +12,8 @@ export default function FoodPage() {
   const [selectedFoods, setSelectedFoods] = useState(selections.food || []);
 
   const foods = [
-    { name: "burgers and fried chicken", image: "/burgers.jpeg" },
+    
+    { name: "Jollof Rice and fried chicken", image: "/jollof.jpg" },
     { name: "seafood boil", image: "/seafood.jpeg" },
     { name: "korean food", image: "/koreanfood.jpeg" },
     { name: "pasta", image: "/pasta.jpeg" },

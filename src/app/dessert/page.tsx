@@ -57,7 +57,7 @@ export default function DessertPage() {
       >
       <h1 className="text-4xl  font-telma font-bold m-8 p-5 text-center">Choose Dessert</h1>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mb-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6 mb-6">
         {desserts.map((dessert) => (
           <div
             key={dessert.name}

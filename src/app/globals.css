@@ -34,4 +34,23 @@
       border-color: #db5252;
     }
   }
+
+  @font-face {
+    font-family: "Gambetta";
+    src: url("/fonts/Gambetta-Regular.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Telma";
+    src: url("/fonts/Telma-Regular.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  body {
+    font-family: "Gambetta", serif;
+  }
+  
   
