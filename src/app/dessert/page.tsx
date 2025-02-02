@@ -14,7 +14,7 @@ export default function DessertPage() {
   const desserts = [
     
     {
-      name: " Pretzels ",
+      name: " Pretzels, ",
       image: "/pretzels.jpeg",
     },
     {
