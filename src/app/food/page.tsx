@@ -13,13 +13,14 @@ export default function FoodPage() {
 
   const foods = [
     
-    { name: "Jollof Rice and fried chicken", image: "/jollof.jpg" },
-    { name: "seafood boil", image: "/seafood.jpeg" },
-    { name: "korean food", image: "/koreanfood.jpeg" },
-    { name: "pasta", image: "/pasta.jpeg" },
-    { name: "pizza", image: "/pizza.jpeg" },
-    { name: "salad", image: "/salad.jpeg" },
-    { name: "pancakes", image: "/pancake.jpeg" },
+   
+    { name: " seafood boil ", image: "/seafood.jpeg" },
+    { name: " Jollof Rice and fried chicken ", image: "/jollof-rice_large.jpg" },
+    { name: " korean food ", image: "/koreanfood.jpeg" },
+    { name: " pasta ", image: "/pasta.jpeg" },
+    { name: " pizza ", image: "/pizza.jpeg" },
+    { name: " salad ", image: "/salad.jpeg" },
+    { name: " pancakes ", image: "/pancake.jpeg" },
   ];
 
   const toggleFoodSelection = (food: string) => {

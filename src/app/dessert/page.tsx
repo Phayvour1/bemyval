@@ -12,28 +12,25 @@ export default function DessertPage() {
   const [selectedDesserts, setSelectedDesserts] = useState<string[]>([]);
 
   const desserts = [
+    
     {
-      name: "Bubble tea",
-      image: "/bubble.jpeg",
-    },
-    {
-      name: "Pretzels",
+      name: " Pretzels ",
       image: "/pretzels.jpeg",
     },
     {
-      name: "Ice cream",
+      name: " Ice cream, ",
       image: "/ice.jpeg",
     },
     {
-      name: "Cheese cake",
+      name: " Cheese cake, ",
       image: "/cheese.jpeg",
     },
     {
-      name: "Cake",
+      name: " Cake, ",
       image: "/cake.jpeg",
     },
     {
-      name: "Croffles",
+      name: " Croffles, ",
       image: "/croffle.jpeg",
     },
   ];
